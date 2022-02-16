@@ -12,9 +12,7 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-/* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
   .cardContainer {
     max-width: 80vw;
     background: hsl(216, 50%, 16%);
@@ -35,10 +33,10 @@ body {
     font-weight: 300;
   }
   article p {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
     padding: 10px 20px;
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 300;
   }
   .imgAvatar {
     border-radius: 50%;
@@ -49,13 +47,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .cardValue {
     color: hsl(178, 100%, 50%);
   }
   .cardDuration {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
   }
 
   .icon1,
@@ -64,8 +62,8 @@ body {
     padding-right: 5px;
   }
   hr {
-    color: hsl(215, 32%, 27%);
-    opacity: 0.4;
+    color: hsl(215, 51%, 70%);
+    opacity: 0.2;
     width: 85%;
     margin: 5px 20px;
   }
@@ -78,7 +76,7 @@ body {
     border: 1px solid #fff;
   }
   .cardAuthor {
-    color: hsl(215, 32%, 27%);
+    color: hsl(215, 51%, 70%);
     padding-left: 15px;
   }
   .cardAuthor span {
