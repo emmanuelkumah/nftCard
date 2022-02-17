@@ -11,7 +11,78 @@ body {
   color: #fff;
   font-family: "Outfit", sans-serif;
 }
+@media (min-width: 1280px) {
+  .cardContainer {
+    max-width: 20vw;
+    background: hsl(216, 50%, 16%);
+    padding-top: 20px;
+    border-radius: 5px;
+    margin: 100px auto;
+  }
+  .cardImg {
+    max-width: 17vw;
+    display: block;
+    margin: 0px auto;
+    border-radius: 10px;
+  }
+  article > h2 {
+    padding: 15px 20px 10px;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  article p {
+    color: hsl(215, 51%, 70%);
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .imgAvatar {
+    border-radius: 50%;
+    max-width: 50%;
+    margin-top: -5px;
+  }
+  .cardPricing {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .cardValue {
+    color: hsl(178, 100%, 50%);
+  }
+  .cardDuration {
+    color: hsl(215, 51%, 70%);
+  }
 
+  .icon1,
+  .icon2 {
+    height: 13px;
+    padding-right: 5px;
+  }
+  hr {
+    color: hsl(215, 51%, 70%);
+    opacity: 0.2;
+    width: 85%;
+    margin: 5px 20px;
+  }
+  .cardFooter {
+    padding: 20px 20px 27px;
+    display: flex;
+  }
+  .imgAvatar {
+    width: 13%;
+    border: 1px solid #fff;
+  }
+  .cardAuthor {
+    color: hsl(215, 51%, 70%);
+    padding-left: 15px;
+    font-size: 12px;
+  }
+  .cardAuthor span {
+    color: #fff;
+  }
+}
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   .cardContainer {
     max-width: 80vw;
