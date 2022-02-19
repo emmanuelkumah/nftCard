@@ -28,16 +28,12 @@ body {
   .cardContainer {
     width: 25vw;
     background-color: var(--card-bckgrndColor);
-    margin-top: 150px;
+    margin-top: 40px;
     border-radius: 15px;
     padding: 20px;
   }
-  .cardImg {
-    display: block;
-    max-width: 100%;
-    border-radius: 10px;
-  }
-  .mainCard {
+
+  mainCard {
     border-radius: 15px;
   }
   article h2 {
@@ -45,6 +41,11 @@ body {
     font-size: 1.3rem;
     font-weight: 300;
     padding: 30px 0px 20px;
+  }
+  article h2:hover,
+  :active {
+    color: var(--primiary-cyan);
+    cursor: pointer;
   }
   article p {
     color: var(--primary-soft-blue);
@@ -87,6 +88,44 @@ body {
   }
   .cardFooter span {
     color: var(--primary-soft-blue);
+  }
+  .cardFooter p:hover,
+  :active {
+    color: var(--primiary-cyan);
+    cursor: pointer;
+  }
+  /* hover effect */
+  .imageContainer {
+    position: relative;
+  }
+  .cardImg {
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease;
+    border-radius: 10px;
+  }
+  .overlay {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .overlay:hover {
+    background-color: var(--primiary-cyan);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .iconView {
+    display: flex;
+    margin: 130px auto;
   }
 }
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
@@ -152,5 +191,8 @@ body {
   }
   .cardFooter span {
     color: var(--primary-soft-blue);
+  }
+  .imgView {
+    display: none;
   }
 }
