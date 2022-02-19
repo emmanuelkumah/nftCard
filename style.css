@@ -28,7 +28,7 @@ body {
   .cardContainer {
     width: 25vw;
     background-color: var(--card-bckgrndColor);
-    margin-top: 40px;
+    margin-top: 140px;
     border-radius: 15px;
     padding: 20px;
   }
