@@ -25,6 +25,69 @@ body {
   align-items: center;
 }
 @media (min-width: 1280px) {
+  .cardContainer {
+    width: 25vw;
+    background-color: var(--card-bckgrndColor);
+    margin-top: 150px;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .cardImg {
+    display: block;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  .mainCard {
+    border-radius: 15px;
+  }
+  article h2 {
+    color: var(--white);
+    font-size: 1.3rem;
+    font-weight: 300;
+    padding: 30px 0px 20px;
+  }
+  article p {
+    color: var(--primary-soft-blue);
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  .cardPricing {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 20px 0px 20px;
+  }
+  .cardValue {
+    color: var(--primiary-cyan);
+    padding-left: 8px;
+  }
+  span.cardDuration {
+    color: var(--primary-soft-blue);
+  }
+  .icon1 {
+    width: 10px;
+  }
+  hr {
+    height: 1px;
+    background-color: var(--primary-soft-blue);
+    border: none;
+    opacity: 0.4;
+  }
+  .cardFooter {
+    display: flex;
+    align-items: center;
+    padding: 20px 0 10px;
+    font-size: 1rem;
+  }
+  .imgAvatar {
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    width: 12%;
+    margin-right: 20px;
+  }
+  .cardFooter span {
+    color: var(--primary-soft-blue);
+  }
 }
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   .cardContainer {
